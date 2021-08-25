@@ -179,7 +179,7 @@ client.on('messageCreate', async message => {
 });
 
 // ### Database Connection ###
-Levels.setURL("mongodb+srv://chris:123qweasdzxc@lycbot.xxw8m.mongodb.net/levelingsystem", { useNewUrlParser: true, useUnifiedTopology: true })
+Levels.setURL("", { useNewUrlParser: true, useUnifiedTopology: true })
 console.log(chalk.cyanBright('[SYSTEM] Successfully connected to database.'))
 
 client.login(config.TOKEN)
